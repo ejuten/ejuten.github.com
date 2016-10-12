@@ -1,0 +1,63 @@
+/* External Style Sheet for faq.html Page
+   Author:  Elayne Juten
+   Date:     09/21/2016
+*/
+
+header, footer, nav, section, article, figure, aside {
+        display: block;  
+}
+
+body {
+    background-color: lightgrey;
+    padding: 1em .5em .5em 1em;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+h2 {
+	font-variant: small-caps; 	
+}
+
+h3 {
+	font-variant: small-caps;
+	font-weight: 600;
+	letter-spacing: 2;
+}
+
+article#end {
+	padding-bottom: 20px;	
+}
+
+aside#question {
+	border-style: solid;
+	border-color: grey;
+	border-width: 2px;
+	background-color: lightblue;
+	width: 25%;
+	float: right;
+	margin-right: 15px;
+	margin-left: 15px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+aside#development {
+	border-style: outset;
+	background-color: lightyellow;
+	border-width: 4px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+footer {
+	text-align: center;	
+}

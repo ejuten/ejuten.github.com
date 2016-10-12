@@ -1,0 +1,48 @@
+/* External Style Sheet for friendsInfo.html Page
+   Author: Elayne Juten 
+   Date: 9/14/2016
+*/
+
+header, footer, nav, section, article, figure, aside {
+    display: block;
+}
+
+body { 
+    background-image: url("../images/back21.gif");
+    padding: 10px; 
+    font-family: Georgia;
+}
+
+h1 {
+   text-align: center;
+   background-color: lightgrey;
+}
+
+h2 {
+    background-color: lightgrey;
+}
+
+h3#title {
+    text-align: center;
+    border-style: dotted;
+    
+}
+
+article#image {
+    width-restrict: 60em; 
+}
+
+img {
+    float: right;
+    max-width: 100%;
+    height: auto;
+    box-shadow: grey 6px 6px 6px;
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    margin-left: 15px;
+    margin-right: 5px;   
+}
+
+

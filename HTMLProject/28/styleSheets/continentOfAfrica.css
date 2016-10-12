@@ -1,0 +1,40 @@
+/* External Style Sheet for continentOf.html Page
+   Author:  Elayne Juten
+   Date:     09/21/2016
+*/
+
+header, footer, nav, section, article, figure, aside {
+        display: block;  
+}
+
+body  {
+
+      padding: 1em .5em .5em 1em; 
+
+      background-color: pink;     /* temp for verifying connection */
+
+}
+
+header {
+    text-align: center;   
+}
+
+article {
+    text-align: center;    
+}
+
+
+img {
+    width-restrict: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    border-top-left-radius: 40px 40px;
+    border-top-right-radius: 40px 40px;
+    border-bottom-left-radius: 40px 40px;
+    border-bottom-right-radius: 40px 40px;
+    box-shadow: grey 5px 5px 5px;
+}
+
+footer {
+    text-align: center;   
+}

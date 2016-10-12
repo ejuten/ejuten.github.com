@@ -1,0 +1,29 @@
+/* External Style Sheet for customerComment.html Page
+   Author:  Elayne Juten
+   Date:     09/21/2016
+*/
+
+header, footer, nav, section, article, figure, aside {
+        display: block;  
+}
+
+body {
+    background-color: lightgrey;
+    padding: 1em .5em .5em 1em; 
+}
+
+h1 {
+    text-align: center;
+}
+
+article {
+    padding-left: 30%;
+}
+
+img {
+    border-top-left-radius: 40px 40px;
+    border-top-right-radius: 40px 40px;
+    border-bottom-left-radius: 40px 40px;
+    border-bottom-right-radius: 40px 40px;
+    box-shadow: grey 5px 5px 5px;
+}
